@@ -7,7 +7,14 @@ name = "big-data-analytics"
 version = "0.1.0"
 description = "Business analytics system for online shop data"
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "numpy",
+    "pandas",
+    "Faker",
+    "scipy",
+    "matplotlib",
+    "seaborn",
+]
 
 [project.optional-dependencies]
 dev = [
