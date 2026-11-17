@@ -19,6 +19,7 @@ Thumbs.db
 
 data/raw/
 data/processed/
+reports/figures/
 
 .ipynb_checkpoints/
 

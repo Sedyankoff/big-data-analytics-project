@@ -1,6 +1,7 @@
 from big_data_analytics.data_loader import (
     inspect_datasets,
     load_datasets,
+    validate_dataset_requirements,
     validate_relationships,
 )
 
@@ -9,6 +10,7 @@ def main():
     datasets = load_datasets()
 
     inspect_datasets(datasets)
+    validate_dataset_requirements(datasets)
     validate_relationships(datasets)
 
 
